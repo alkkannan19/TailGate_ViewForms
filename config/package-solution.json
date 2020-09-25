@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jbc-task-dashboard-client-side-solution",
+    "id": "b0d2ca2b-7226-4f80-900d-76ddc0fe3e95",
+    "version": "1.0.0.6",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/jbc-task-dashboard.sppkg"
+  }
+}

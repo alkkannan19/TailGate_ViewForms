@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "jbc-task-dashboard",
+    "libraryId": "b0d2ca2b-7226-4f80-900d-76ddc0fe3e95",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
