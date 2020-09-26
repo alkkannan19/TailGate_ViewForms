@@ -1,23 +1,28 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
 .taskActivity {
-  .container {
-    max-width: 700px;
-    margin: 0px auto;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-    background: grey!important;
-    border: solid 2px!important;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-    border-radius: 25px!important;
-   
-  }
 
+  .container {
+    // max-width: 700px;
+    // margin: 0px auto;
+    // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    // background: grey!important;
+    // border: solid 2px!important;
+
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 15px;
+    border-color: black;
+    // width: 200px;
+    // height: 150px;
+    // border-radius: 25px!important;
+  }
+  
   .row {
     @include ms-Grid-row;
     @include ms-fontColor-white;
-    background-color: $ms-color-themeDark;
+    background-color: white;
+    color: black;
     padding: 20px;
   }
 
@@ -78,5 +83,81 @@
     }   
     
   }
- 
+  .col_1 {
+    @include ms-Grid-col;
+    @include ms-lg1;
+    @include ms-sm1;
+    @include ms-xl1;
+  }
+  .col_2 {
+    @include ms-Grid-col;
+    @include ms-lg2;
+    @include ms-sm2;
+    @include ms-xl2;
+  }
+  .col_3 {
+    @include ms-Grid-col;
+    @include ms-lg3;
+    @include ms-sm3;
+    @include ms-xl3;
+  }
+  .col_4 {
+    @include ms-Grid-col;
+    @include ms-lg4;
+    @include ms-sm4;
+    @include ms-xl4;
+  }
+  .col_5 {
+    @include ms-Grid-col;
+    @include ms-lg5;
+    @include ms-sm5;
+    @include ms-xl5;
+  }
+  .col_6 {
+    @include ms-Grid-col;
+    @include ms-lg6;
+    @include ms-sm6;
+    @include ms-xl6;
+  }
+  .col_7 {
+    @include ms-Grid-col;
+    @include ms-lg7;
+    @include ms-sm7;
+    @include ms-xl7;
+  }
+  .col_12 {
+    @include ms-Grid-col;
+    @include ms-lg12;
+    @include ms-sm12;
+    @include ms-xl12;
+  }
+  .col_8 {
+    @include ms-Grid-col;
+    @include ms-lg8;
+    @include ms-sm8;
+    @include ms-xl8;
+  }
+  .col_9 {
+    @include ms-Grid-col;
+    @include ms-lg9;
+    @include ms-sm9;
+    @include ms-xl9;
+  }
+  .col_10 {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-sm10;
+    @include ms-xl10;
+  }
+  .col_11 {
+    @include ms-Grid-col;
+    @include ms-lg11;
+    @include ms-sm11;
+    @include ms-xl11;
+  }
+  .divalign{
+    font-size: large;
+    font-weight: 700;
+  }
+
 }
