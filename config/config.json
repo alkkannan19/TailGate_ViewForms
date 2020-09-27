@@ -13,6 +13,7 @@
   },
   "externals": {},
   "localizedResources": {
-    "TaskActivityWebPartStrings": "lib/webparts/taskActivity/loc/{locale}.js"
+    "TaskActivityWebPartStrings": "lib/webparts/taskActivity/loc/{locale}.js",
+  
   }
 }
